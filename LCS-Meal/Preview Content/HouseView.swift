@@ -16,7 +16,7 @@ struct HouseView: View {
             List{
                 ForEach(0..<houses.count){ num in
                     
-                    NavigationLink(destination: ScheduleView(details: apiData.filter(house: houses[num]), house: houses[num])){
+                    NavigationLink(destination: ScheduleView(details: apiData.filter(house: houses[num]),{
                         Text("\(houses[num])")
                     }
                 }

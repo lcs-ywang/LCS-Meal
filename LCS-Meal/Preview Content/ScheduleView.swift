@@ -16,7 +16,16 @@ struct ScheduleView: View {
     }
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack{
+            Form{
+                ForEach(0..<details.count){ num in
+                    if details[num].date == todayDate{ // Simple Filter
+                       
+                    }
+                }
+            }
+            .navigationBarTitle("\(house)")
+        }
     }
 }
 
