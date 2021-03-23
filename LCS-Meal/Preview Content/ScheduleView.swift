@@ -12,7 +12,13 @@ struct ScheduleView: View {
     var house = ""
     
     private var todayDate : String{
-        return "2/16/2021"
+        let now = Date()
+        let calendar = Calendar.current
+        
+        let day = calendar.component(.day, from:now)
+        let month = calendar.component(.month, from:now)
+        let year = calendar.component(.year, from:now)
+        return "\(day)/\(month)/\(year)"
     }
     
     var body: some View {
