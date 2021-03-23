@@ -10,6 +10,7 @@ import SwiftUI
 struct ScheduleView: View {
     @State var details:[DineDetail] = []
     var house = ""
+    
     private var todayDate : String{
         return "2/16/2021"
     }
