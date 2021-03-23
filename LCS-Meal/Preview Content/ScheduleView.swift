@@ -33,6 +33,13 @@ struct ScheduleView: View {
                             Text("Date: \(details[num].date)")
                         }
                         
+                        Section(header: Text("\(house)'s Diner")){
+                            Text("Location: \(details[num].diLocation)")
+                            Text("Time: \(details[num].diTime)")
+                            Text("Date: \(details[num].date)")
+                        
+                        }
+                        
                         
                     }
                 }
