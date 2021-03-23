@@ -48,7 +48,8 @@ struct ContentView: View {
                         }
                     }
                 }
-                NavigationLink(destination: Dinner()){
+                NavigationLink(destination:
+                    Dinner()){
                     HStack{
                         
                         Text("🍛")
@@ -65,10 +66,33 @@ struct ContentView: View {
                         }
                     }
                 }
+                
+                NavigationLink(destination: Houseview()){
+                    HStack{
+                        
+                        Text("🍽")
+                            .font(.largeTitle)
+                        
+                        VStack(alignment: .leading){
+                            Text("Dine-in or Take-out")
+                                .multilineTextAlignment(.leading)
+                            
+                            Text("Figure it out house's meal schedule")
+                                .font(.caption)
+                                .multilineTextAlignment(.leading)
+                            
+                        }
+                    }
+                    .padding()
+                    
+                }
+                
+            }
+            .navigationBarTitle("LCS Meal")
             }
         }
     }
-}
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
