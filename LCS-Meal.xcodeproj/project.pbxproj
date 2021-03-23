@@ -17,7 +17,7 @@
 		3CF3F40C260A6FB9009B3CDC /* Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF3F40B260A6FB9009B3CDC /* Schedule.swift */; };
 		3CF3F410260A700F009B3CDC /* Schedules.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF3F40F260A700F009B3CDC /* Schedules.swift */; };
 		3CF3F413260A7042009B3CDC /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF3F412260A7042009B3CDC /* Store.swift */; };
-		3CF3F41A260A7199009B3CDC /* Houseview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF3F419260A7199009B3CDC /* Houseview.swift */; };
+		3CF3F41E260A71E7009B3CDC /* HouseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF3F41D260A71E7009B3CDC /* HouseView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,7 +33,7 @@
 		3CF3F40B260A6FB9009B3CDC /* Schedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Schedule.swift; sourceTree = "<group>"; };
 		3CF3F40F260A700F009B3CDC /* Schedules.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Schedules.swift; sourceTree = "<group>"; };
 		3CF3F412260A7042009B3CDC /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
-		3CF3F419260A7199009B3CDC /* Houseview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Houseview.swift; sourceTree = "<group>"; };
+		3CF3F41D260A71E7009B3CDC /* HouseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +83,7 @@
 				3CF3F3F4260A6763009B3CDC /* Breakfast.swift */,
 				3CF3F3F7260A67F6009B3CDC /* Lunch.swift */,
 				3CF3F3FA260A6846009B3CDC /* Dinner.swift */,
-				3CF3F419260A7199009B3CDC /* Houseview.swift */,
+				3CF3F41D260A71E7009B3CDC /* HouseView.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -170,10 +170,10 @@
 				3CF3F3FB260A6846009B3CDC /* Dinner.swift in Sources */,
 				3CF3F3F8260A67F6009B3CDC /* Lunch.swift in Sources */,
 				3CF3F410260A700F009B3CDC /* Schedules.swift in Sources */,
+				3CF3F41E260A71E7009B3CDC /* HouseView.swift in Sources */,
 				3CF3F413260A7042009B3CDC /* Store.swift in Sources */,
 				3CF3F3E7260A66B8009B3CDC /* ContentView.swift in Sources */,
 				3CF3F3E5260A66B8009B3CDC /* LCS_MealApp.swift in Sources */,
-				3CF3F41A260A7199009B3CDC /* Houseview.swift in Sources */,
 				3CF3F40C260A6FB9009B3CDC /* Schedule.swift in Sources */,
 				3CF3F3F5260A6763009B3CDC /* Breakfast.swift in Sources */,
 			);
