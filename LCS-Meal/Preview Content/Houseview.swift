@@ -1,5 +1,5 @@
 //
-//  HouseView.swift
+//  Houseview.swift
 //  LCS-Meal
 //
 //  Created by Yining Wang on 2021-03-23.
