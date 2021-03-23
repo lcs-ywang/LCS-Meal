@@ -20,7 +20,14 @@ struct ScheduleView: View {
             Form{
                 ForEach(0..<details.count){ num in
                     if details[num].date == todayDate{ // Simple Filter
-                       
+                        Section(header: Text("\(house)'s Breakfast")){
+                            Text("House: \(details[num].house)")
+                            Text("Location: \(details[num].brLocation)")
+                            Text("Time: \(details[num].brTime)")
+                            Text("Date: \(details[num].date)")
+                        }
+                        
+                        
                     }
                 }
             }
