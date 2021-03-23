@@ -26,6 +26,20 @@ class ApiData: ObservableObject {
             
         }.resume()
     }
+    init() {
+        self.updateData()
+    }
     
+    func filter(house:String) -> [DineDetail]{
+        var result:[DineDetail] = []
+        for detail in self.getData{
+            
+            if detail.house == house{
+                result.append(detail)
+            }
+        }
+        
+        return result
+    }
     
 }
