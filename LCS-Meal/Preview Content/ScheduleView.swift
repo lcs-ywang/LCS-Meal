@@ -19,11 +19,17 @@ struct ScheduleView: View {
         VStack{
             Form{
                 ForEach(0..<details.count){ num in
-                    if details[num].date == todayDate{ // Simple Filter
+                    if details[num].date == todayDate{// Simple Filter
                         Section(header: Text("\(house)'s Breakfast")){
                             Text("House: \(details[num].house)")
                             Text("Location: \(details[num].brLocation)")
                             Text("Time: \(details[num].brTime)")
+                            Text("Date: \(details[num].date)")
+                        }
+                        Section(header: Text("\(house)'s Lunch")){
+                            Text("House: \(details[num].house)")
+                            Text("Location: \(details[num].luLocation)")
+                            Text("Time: \(details[num].luTime)")
                             Text("Date: \(details[num].date)")
                         }
                         
