@@ -11,6 +11,7 @@
 		3CF3F3E7260A66B8009B3CDC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF3F3E6260A66B8009B3CDC /* ContentView.swift */; };
 		3CF3F3E9260A66C3009B3CDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CF3F3E8260A66C3009B3CDC /* Assets.xcassets */; };
 		3CF3F3EC260A66C3009B3CDC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CF3F3EB260A66C3009B3CDC /* Preview Assets.xcassets */; };
+		3CF3F3F5260A6763009B3CDC /* Breakfast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF3F3F4260A6763009B3CDC /* Breakfast.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		3CF3F3E8260A66C3009B3CDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3CF3F3EB260A66C3009B3CDC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3CF3F3ED260A66C3009B3CDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CF3F3F4260A6763009B3CDC /* Breakfast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Breakfast.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				3CF3F3EB260A66C3009B3CDC /* Preview Assets.xcassets */,
+				3CF3F3F4260A6763009B3CDC /* Breakfast.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 			files = (
 				3CF3F3E7260A66B8009B3CDC /* ContentView.swift in Sources */,
 				3CF3F3E5260A66B8009B3CDC /* LCS_MealApp.swift in Sources */,
+				3CF3F3F5260A6763009B3CDC /* Breakfast.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
