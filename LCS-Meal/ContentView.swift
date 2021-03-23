@@ -26,12 +26,47 @@ struct ContentView: View {
                                 .font(.caption)
                                 .multilineTextAlignment(.leading)
                             
+                            
                         }
                     }
                 }
-            
+                NavigationLink(destination:
+                    Lunch()){
+                    HStack{
+                        
+                        Text("🍱")
+                            .font(.largeTitle)
+                        
+                        VStack(alignment: .leading){
+                            Text("Lunch")
+                                .multilineTextAlignment(.leading)
+                            
+                            Text("Lunch is important for the classes in the afternoon.")
+                                .font(.caption)
+                                .multilineTextAlignment(.leading)
+                            
+                        }
+                    }
+                }
+                NavigationLink(destination: Dinner()){
+                    HStack{
+                        
+                        Text("🍛")
+                            .font(.largeTitle)
+                        
+                        VStack(alignment: .leading){
+                            Text("Dinner")
+                                .multilineTextAlignment(.leading)
+                            
+                            Text("Dinner is delicious today.")
+                                .font(.caption)
+                                .multilineTextAlignment(.leading)
+                            
+                        }
+                    }
+                }
+            }
         }
-        
     }
 }
 
