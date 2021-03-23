@@ -67,7 +67,7 @@ struct ContentView: View {
                     }
                 }
                 
-                NavigationLink(destination: Houseview()){
+                NavigationLink(destination: HouseView()){
                     HStack{
                         
                         Text("🍽")
