@@ -16,6 +16,7 @@
 		3CF3F3FB260A6846009B3CDC /* Dinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF3F3FA260A6846009B3CDC /* Dinner.swift */; };
 		3CF3F3FE260A68B8009B3CDC /* Houseview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF3F3FD260A68B8009B3CDC /* Houseview.swift */; };
 		3CF3F40C260A6FB9009B3CDC /* Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF3F40B260A6FB9009B3CDC /* Schedule.swift */; };
+		3CF3F410260A700F009B3CDC /* Schedules.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF3F40F260A700F009B3CDC /* Schedules.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		3CF3F3FA260A6846009B3CDC /* Dinner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dinner.swift; sourceTree = "<group>"; };
 		3CF3F3FD260A68B8009B3CDC /* Houseview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Houseview.swift; sourceTree = "<group>"; };
 		3CF3F40B260A6FB9009B3CDC /* Schedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Schedule.swift; sourceTree = "<group>"; };
+		3CF3F40F260A700F009B3CDC /* Schedules.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Schedules.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				3CF3F40B260A6FB9009B3CDC /* Schedule.swift */,
+				3CF3F40F260A700F009B3CDC /* Schedules.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -163,6 +166,7 @@
 			files = (
 				3CF3F3FB260A6846009B3CDC /* Dinner.swift in Sources */,
 				3CF3F3F8260A67F6009B3CDC /* Lunch.swift in Sources */,
+				3CF3F410260A700F009B3CDC /* Schedules.swift in Sources */,
 				3CF3F3E7260A66B8009B3CDC /* ContentView.swift in Sources */,
 				3CF3F3FE260A68B8009B3CDC /* Houseview.swift in Sources */,
 				3CF3F3E5260A66B8009B3CDC /* LCS_MealApp.swift in Sources */,
