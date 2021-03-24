@@ -83,7 +83,7 @@ struct ContentView: View {
                     Text("House View")
                 }
             
-            ç()
+            HomePageView()
                 .tabItem {
                     Image(systemName: "map")
                     Text("Home Page")
