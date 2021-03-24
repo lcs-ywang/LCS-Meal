@@ -26,7 +26,7 @@ struct Dinner: View {
                 ForEach(0..<details.getData.count){ num in
                     if details.getData[num].date == todayDate{
                         Section(header: Text(" Breakfast")){
-                            Text("Menu: \(details.getData[num].breakfast)")
+                            Text("Menu: \(details.getData[num].dinner)")
                             
                         }
                     }
