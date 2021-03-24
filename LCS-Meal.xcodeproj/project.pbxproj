@@ -19,7 +19,20 @@
 		3CF3F413260A7042009B3CDC /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF3F412260A7042009B3CDC /* Store.swift */; };
 		3CF3F41E260A71E7009B3CDC /* HouseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF3F41D260A71E7009B3CDC /* HouseView.swift */; };
 		3CF3F421260A72BE009B3CDC /* ScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF3F420260A72BE009B3CDC /* ScheduleView.swift */; };
+		3CF3F42A260AB2F3009B3CDC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF3F429260AB2F3009B3CDC /* main.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3CF3F425260AB2F3009B3CDC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		3CF3F3E1260A66B8009B3CDC /* LCS-Meal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LCS-Meal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,10 +49,19 @@
 		3CF3F412260A7042009B3CDC /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
 		3CF3F41D260A71E7009B3CDC /* HouseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseView.swift; sourceTree = "<group>"; };
 		3CF3F420260A72BE009B3CDC /* ScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleView.swift; sourceTree = "<group>"; };
+		3CF3F427260AB2F3009B3CDC /* Test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Test; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CF3F429260AB2F3009B3CDC /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		3CF3F3DE260A66B8009B3CDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CF3F424260AB2F3009B3CDC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -54,6 +76,7 @@
 			children = (
 				3CF3F40A260A6FA9009B3CDC /* Model */,
 				3CF3F3E3260A66B8009B3CDC /* LCS-Meal */,
+				3CF3F428260AB2F3009B3CDC /* Test */,
 				3CF3F3E2260A66B8009B3CDC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -62,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				3CF3F3E1260A66B8009B3CDC /* LCS-Meal.app */,
+				3CF3F427260AB2F3009B3CDC /* Test */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,6 +125,14 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		3CF3F428260AB2F3009B3CDC /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				3CF3F429260AB2F3009B3CDC /* main.swift */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -121,6 +153,23 @@
 			productReference = 3CF3F3E1260A66B8009B3CDC /* LCS-Meal.app */;
 			productType = "com.apple.product-type.application";
 		};
+		3CF3F426260AB2F3009B3CDC /* Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CF3F42B260AB2F3009B3CDC /* Build configuration list for PBXNativeTarget "Test" */;
+			buildPhases = (
+				3CF3F423260AB2F3009B3CDC /* Sources */,
+				3CF3F424260AB2F3009B3CDC /* Frameworks */,
+				3CF3F425260AB2F3009B3CDC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Test;
+			productName = Test;
+			productReference = 3CF3F427260AB2F3009B3CDC /* Test */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -131,6 +180,9 @@
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
 					3CF3F3E0260A66B8009B3CDC = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					3CF3F426260AB2F3009B3CDC = {
 						CreatedOnToolsVersion = 12.4;
 					};
 				};
@@ -149,6 +201,7 @@
 			projectRoot = "";
 			targets = (
 				3CF3F3E0260A66B8009B3CDC /* LCS-Meal */,
+				3CF3F426260AB2F3009B3CDC /* Test */,
 			);
 		};
 /* End PBXProject section */
@@ -180,6 +233,14 @@
 				3CF3F3E5260A66B8009B3CDC /* LCS_MealApp.swift in Sources */,
 				3CF3F40C260A6FB9009B3CDC /* Schedule.swift in Sources */,
 				3CF3F3F5260A6763009B3CDC /* Breakfast.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CF3F423260AB2F3009B3CDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CF3F42A260AB2F3009B3CDC /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,6 +407,32 @@
 			};
 			name = Release;
 		};
+		3CF3F42C260AB2F3009B3CDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2PUY3827Z7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		3CF3F42D260AB2F3009B3CDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2PUY3827Z7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -363,6 +450,15 @@
 			buildConfigurations = (
 				3CF3F3F1260A66C3009B3CDC /* Debug */,
 				3CF3F3F2260A66C3009B3CDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CF3F42B260AB2F3009B3CDC /* Build configuration list for PBXNativeTarget "Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CF3F42C260AB2F3009B3CDC /* Debug */,
+				3CF3F42D260AB2F3009B3CDC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

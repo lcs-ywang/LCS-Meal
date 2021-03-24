@@ -21,7 +21,6 @@ class ApiData: ObservableObject {
             
             if let placeholder = try? JSONDecoder().decode(Schedule.self, from: data){
                 self.getData = placeholder.list
-                print(placeholder)
             }
             
         }.resume()

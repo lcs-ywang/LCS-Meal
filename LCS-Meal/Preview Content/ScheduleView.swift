@@ -12,13 +12,12 @@ struct ScheduleView: View {
     var house = ""
     
     private var todayDate : String{
-        let now = Date()
-        let calendar = Calendar.current
+        let today = Date()
+        let formatter1 = DateFormatter()
+        formatter1.dateStyle = .short
         
-        let day = calendar.component(.day, from:now)
-        let month = calendar.component(.month, from:now)
-        let year = calendar.component(.year, from:now)
-        return "\(day)/\(month)/\(year)"
+        return(formatter1.string(from: today))
+//        return "03/22/2021"
     }
     
     var body: some View {
@@ -58,5 +57,16 @@ struct ScheduleView: View {
 struct ScheduleView_Previews: PreviewProvider {
     static var previews: some View {
         ScheduleView()
+    }
+}
+
+
+extension Date {
+    func localDate() -> Date {
+        let nowUTC = Date()
+        let timeZoneOffset = Double(TimeZone.current.secondsFromGMT(for: nowUTC))
+        guard let localDate = Calendar.current.date(byAdding: .second, value: Int(timeZoneOffset), to: nowUTC) else {return Date()}
+
+        return localDate
     }
 }
