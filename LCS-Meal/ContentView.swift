@@ -68,6 +68,7 @@ struct HomePageView : View{
                     }
                 }
             }
+            .navigationBarTitle("Menu")
         }
     }
 }
