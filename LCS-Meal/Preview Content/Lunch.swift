@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct Lunch: View {
-    @State var details = ApiData2()
+    @ObservedObject var details = ApiData2()
     
     private var todayDate : String{
         let today = Date()
