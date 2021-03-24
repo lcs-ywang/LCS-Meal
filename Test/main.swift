@@ -8,8 +8,9 @@
 import Foundation
 
 
-let now = Date()
-let formatter = DateFormatter()
 
-formatter.dateStyle = .short
-print(formatter.string(from: now))
+//let today = Date()
+//let formatter1 = DateFormatter()
+//formatter1.dateStyle = .medium
+
+print ("hello")

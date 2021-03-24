@@ -15,9 +15,9 @@ struct ScheduleView: View {
         let today = Date()
         let formatter1 = DateFormatter()
         formatter1.dateStyle = .short
-        
-        return(formatter1.string(from: today))
-//        return "03/22/2021"
+
+        let a = formatter1.string(from: today)
+        return a
     }
     
     var body: some View {
@@ -61,12 +61,3 @@ struct ScheduleView_Previews: PreviewProvider {
 }
 
 
-extension Date {
-    func localDate() -> Date {
-        let nowUTC = Date()
-        let timeZoneOffset = Double(TimeZone.current.secondsFromGMT(for: nowUTC))
-        guard let localDate = Calendar.current.date(byAdding: .second, value: Int(timeZoneOffset), to: nowUTC) else {return Date()}
-
-        return localDate
-    }
-}
