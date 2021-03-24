@@ -8,8 +8,32 @@
 import SwiftUI
 
 struct Dinner: View {
+    @State var details = ApiData2()
+    
+    private var todayDate : String{
+        let today = Date()
+        let formatter = DateFormatter()
+        formatter.dateStyle = .short
+
+        return (formatter.string(from: today))
+    }
+    
+    
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack{
+            Form{
+                ForEach(0..<details.getData.count){ num in
+                    if details.getData[num].date == todayDate{
+                        Section(header: Text(" Breakfast")){
+                            Text("Menu: \(details.getData[num].breakfast)")
+                            
+                        }
+                    }
+                    
+                }
+            }
+        }
     }
 }
 
